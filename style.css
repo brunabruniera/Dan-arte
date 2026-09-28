@@ -1,16 +1,4 @@
 
-.logo
-.hero
-.hero-text
-.hero-img
-.circulo
-.imagem-inicio
-#inicio
-.titulozinho
-.sobre
-#sobre
-.sobre-text
-.titulo-sobre
 
 * {
     margin: 0;
@@ -31,4 +19,85 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #d8d0c8;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #171717;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #77716c;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero{
+    min-height: 600px;
+    padding: 80px 7%;
+    display: grid;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero-text{
+
+}
+
+.hero-img{
+    height: 450px;
+    background: #c9b8aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-img::after {
+    content: "DANÇA";
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.circulo{
+
+}
+
+.imagem-inicio{
+
+}
+
+#inicio{
+
+}
+
+.titulozinho{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #77716c;
+}
+
+.sobre{
+
+}
+#sobre{
+
+}
+
+.sobre-text{
+
+}
+
+.titulo-sobre{
+
 }
