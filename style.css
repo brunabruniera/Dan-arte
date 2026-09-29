@@ -165,7 +165,6 @@ nav a:hover {
 
 .numero {
     font-size: 12px;
-    font-weight: bold;
 }
 
 .icone-cartao {
@@ -188,18 +187,14 @@ nav a:hover {
     padding: 100px 7%;
     background: #ded3ca;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: right;
     gap: 80px;
-}
 
-.lista-beneficios {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 .lista-beneficios div {
     padding: 25px 20px;
-    border-top: 1px solid #aaa099;
+    
 }
 
 .lista-beneficios span {
@@ -264,4 +259,9 @@ nav a:hover {
     .lista-beneficios {
         grid-template-columns: 1fr;
     }
+}
+
+.dança-grupo, img{
+    border-radius: 15px;
+    border: #68615c grid;
 }
