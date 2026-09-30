@@ -8,7 +8,7 @@ Depois comecei criando a estrutura principal do site, separando o conteúdo em p
 
 Na página inicial coloquei o nome do site, um menu de navegação, uma frase de efeito usada pelo grupo de dança, um pequeno texto e uma imagem do grupo inteiro antes de ir em um festival em Joinville. Depois criei outras partes com informações sobre a dança, alguns estilos e seus benefícios. Também coloquei imagens de algumas danças nos cartões dos estilos para deixar o site mais visual.
 
-A principal ferramenta que usei foi o **Visual Studio Code**, usando somente o **HTML e o CSS**. Também usei o navegador para testar a página e conferir como ela estava ficando. Quando alguma parte não ficava como eu queria, voltava no código e fazia as alterações necessárias.
+A principal ferramenta que usei foi o **Visual Studio Code**, usando somente o **HTML e o CSS** usei tambem o **Claude AI** para concertar partes que ficavam esquisitas e adicionar alguns textos e mellhorar minhas ideias. Também usei o navegador para testar a página e conferir como ela estava ficando. Quando alguma parte não ficava como eu queria, voltava no código e fazia as alterações necessárias.
 
 Durante o desenvolvimento aprendi principalmente conceitos novos de CSS que queria para meu site e não sabia como fazer, então pesquisei o que usar e como usar. Aprendi que o `grid-template-columns: 1fr;` serve para definir as colunas de um Grid. O `1fr` faz a coluna ocupar todo o espaço disponível.
 
